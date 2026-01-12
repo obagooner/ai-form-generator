@@ -3,6 +3,14 @@
 A frontend-only web application that converts natural language descriptions into clean, accessible, production-ready HTML forms with live preview and export options.
 
 ---
+## 🔍 Live Demo
+
+👉 https://obagooner.github.io/ai-form-generator/
+
+## 📸 Preview
+
+![AI Form Generator Preview](Assets/screenshot.png)
+
 
 ## 🚀 Features
 
