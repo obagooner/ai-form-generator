@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI HTML Form Generator</title>
+
+  <!-- Prism.js for syntax highlighting -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>AI-Powered HTML Form Generator</h1>
+  <p>Turn plain English into accessible HTML forms.</p>
+</header>
+
+<main class="container">
+
+  <!-- HELP SECTION -->
+  <section class="help">
+    <h2>How to Use</h2>
+
+    <p><strong>Example descriptions:</strong></p>
+    <ul>
+      <li>Create a contact form with name, email, message, and submit button.</li>
+      <li>Create a registration form with full name, email, password, and validation.</li>
+      <li>Create a feedback form with email and comments.</li>
+    </ul>
+
+    <p><strong>Tips:</strong></p>
+    <ul>
+      <li>Mention field names explicitly (email, password, message).</li>
+      <li>Use simple sentences.</li>
+      <li>Specify required fields when possible.</li>
+    </ul>
+
+    <p>
+      Learn more about accessible forms:
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Accessibility" target="_blank">
+        MDN Web Docs
+      </a>
+    </p>
+  </section>
+
+  <!-- INPUT -->
+  <section class="input-section">
+    <label for="preset">Form Type</label>
+    <select id="preset">
+      <option value="">Select a preset</option>
+      <option value="contact">Contact Form</option>
+      <option value="registration">Registration Form</option>
+      <option value="login">Login Form</option>
+      <option value="survey">Survey Form</option>
+      <option value="custom">Custom</option>
+    </select>
+
+    <label for="prompt">Form Description</label>
+    <textarea
+      id="prompt"
+      placeholder="Example: Create a contact form with name, email, message, and submit button."
+    ></textarea>
+
+    <fieldset class="options">
+      <legend>Options</legend>
+      <label><input type="checkbox" id="includeCSS" checked /> Include CSS</label>
+      <label><input type="checkbox" id="responsive" checked /> Responsive</label>
+      <label><input type="checkbox" id="validation" checked /> Validation</label>
+      <label><input type="checkbox" id="darkMode" /> Dark Theme</label>
+    </fieldset>
+
+    <p id="message" role="alert"></p>
+
+    <button id="generateBtn">Generate Form</button>
+  </section>
+
+  <!-- OUTPUT -->
+  <section class="output-section">
+    <div class="panel">
+      <h2>Live Preview</h2>
+      <iframe id="preview" title="Form Preview"></iframe>
+    </div>
+
+    <div class="panel">
+      <h2>Generated HTML</h2>
+      <pre><code id="codeOutput" class="language-markup"></code></pre>
+
+      <button id="copyBtn">Copy Code</button>
+      <span id="copyStatus"></span>
+
+      <div class="exports">
+        <button id="downloadHTML">Download HTML</button>
+        <button id="copyCSS">Copy CSS</button>
+        <button id="exportCodePen">Export to CodePen</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markup.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
