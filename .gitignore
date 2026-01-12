@@ -1,0 +1,9 @@
+```gitignore
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+
+# OS files
+Thumbs.db
