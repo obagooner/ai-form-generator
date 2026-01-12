@@ -86,3 +86,48 @@ git clone https://github.com/obagooner/ai-form-generator.git
 cd ai-form-generator
 open index.html
 
+
+---
+
+## 🧠 Case Study: AI-Powered Form Generator
+
+### Problem
+Many developers, founders, and non-technical users struggle to quickly create clean, accessible HTML forms. Existing tools are either too rigid, overly complex, or locked behind paid platforms.
+
+### Solution
+I built an AI-powered form generator that allows users to describe their form requirements in plain English and instantly receive:
+- A live form preview
+- Clean, production-ready HTML, CSS, and JavaScript
+- Optional validation, responsiveness, and theming
+
+The tool focuses on speed, clarity, and developer-friendly output.
+
+### Key Features
+- Natural-language form description input
+- Pre-built form presets (Contact, Login, Registration, Survey)
+- Live preview with modern UI styling
+- Code export (HTML / CSS / JavaScript)
+- Dark and light theme support
+- Error handling and helpful user guidance
+- Fully responsive layout
+
+### Technical Decisions
+- **Vanilla HTML, CSS, JavaScript** for zero build complexity
+- Modular JavaScript functions for extensibility
+- CSS variables for easy theming
+- Accessibility-conscious form markup
+- GitHub Pages for frictionless deployment
+
+### Challenges & Learnings
+- Translating vague user descriptions into structured form layouts
+- Balancing UI polish with code simplicity
+- Designing flexible presets without over-constraining customization
+
+This project strengthened my frontend architecture skills, UI/UX decision-making, and ability to ship polished tools suitable for real users.
+
+### Future Improvements
+- AI API integration (OpenAI / Claude)
+- Drag-and-drop form editor
+- Export to React / Vue components
+- Form schema validation and saving
+
