@@ -67,11 +67,13 @@ This tool allows users to describe a form in plain English and instantly receive
 
 ---
 
-## 📦 Installation
+## 📦 Usage
 
-No installation required.
+No installation or build step is required.
+
+You can use the application directly via the live demo, or run it locally by opening the `index.html` file in your browser.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-form-generator.git
+git clone https://github.com/obagooner/ai-form-generator.git
 cd ai-form-generator
 open index.html
