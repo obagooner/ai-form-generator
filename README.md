@@ -18,6 +18,10 @@ A frontend-only web application that converts natural language descriptions into
 ### 3️⃣ Clean HTML Code Output
 ![Generated HTML Code](Assets/screenshot-preview.png)
 
+### Full Demo GIF
+![Demo](assets/demo.gif)
+
+
 
 ## 🚀 Features
 
